@@ -14,6 +14,7 @@ const Players = (props) => {
     <div className="parent-div">
       {players.map((player) => (
         <Player
+          key={player.id}
           handleAddPlayer={props.handleAddPlayer}
           player={player}
         ></Player>
