@@ -1,0 +1,136 @@
+[
+  {
+    "id": 1,
+    "name": "Christiano Ronaldo",
+    "club": "Juventus F.C.",
+    "position": "Forward",
+    "img": "https://i.ibb.co/CM6r2JH/ronaldo.jpg",
+    "salary": 3100000,
+    "country": "Portugal"
+  },
+  {
+    "id": 2,
+    "name": "Neymar J.R",
+    "club": "Paris Seint Germain",
+    "position": "Forward",
+    "img": "https://i.ibb.co/mJHhRvW/neymar.jpg",
+    "salary": 3600000,
+    "country": "Brazil"
+  },
+  {
+    "id": 3,
+    "name": "Lionel Messi",
+    "club": "FC Barcelona",
+    "position": "Forward & Captain",
+    "img": "https://i.ibb.co/NSNh2c5/messi.jpg",
+    "salary": 2600000,
+    "country": "Argentina"
+  },
+  {
+    "id": 4,
+    "name": "Mohamed Salah",
+    "club": "Liverpool",
+    "position": "Forward",
+    "img": "https://i.ibb.co/jMKPsRQ/salah.jpg",
+    "salary": 1000000,
+    "country": "Egypt"
+  },
+  {
+    "id": 5,
+    "name": "Phillipe Coutinho",
+    "club": "FC Barcelona",
+    "position": "Attacking Midfielder",
+    "img": "https://i.ibb.co/BNHb8Zk/coutinho.jpg",
+    "salary": 1100000,
+    "country": "Brazil"
+  },
+  {
+    "id": 6,
+    "name": "Luka Modrić",
+    "club": "Real Madrid",
+    "position": "Center Midfielder",
+    "img": "https://i.ibb.co/pfKbxbS/modric.jpg",
+    "salary": 900000,
+    "country": "Croatia"
+  },
+  {
+    "id": 7,
+    "name": "Sergio Ramos",
+    "club": "Real Madrid",
+    "position": "Center Back",
+    "img": "https://i.ibb.co/BtQtnGk/ramos.jpg",
+    "salary": 1500000,
+    "country": "Spain"
+  },
+  {
+    "id": 8,
+    "name": "Karim Benzema",
+    "club": "Real Madrid",
+    "position": "Striker",
+    "img": "https://i.ibb.co/FsMTPGF/benzema.jpg",
+    "salary": 700000,
+    "country": "France"
+  },
+  {
+    "id": 9,
+    "name": "Marcelo Vieira",
+    "club": "Real Madrid",
+    "position": "Left Back",
+    "img": "https://i.ibb.co/j3Zq6D1/marcelo.jpg",
+    "salary": 1700000,
+    "country": "Brazil"
+  },
+  {
+    "id": 10,
+    "name": "Kylian Mbappe",
+    "club": "Paris Seint Germain",
+    "position": "Forward",
+    "img": "https://i.ibb.co/9pjrmHD/mbappe.jpg",
+    "salary": 1700000,
+    "country": "France"
+  },
+  {
+    "id": 11,
+    "name": "Robert Lewandowski",
+    "club": "FC Bayern Munich",
+    "position": "Striker",
+    "img": "https://i.ibb.co/d2T0h4G/lewndowski.jpg",
+    "salary": 8000000,
+    "country": "Poland"
+  },
+  {
+    "id": 12,
+    "name": "Luis Suarez",
+    "club": "Atletico Madrid",
+    "position": "Striker",
+    "img": "https://i.ibb.co/w7WmbfK/suarez.jpg",
+    "salary": 1500000,
+    "country": "Uruguay"
+  },
+  {
+    "id": 13,
+    "name": "Kevin De Bruyne",
+    "club": "Manchester City",
+    "position": "Midfielder",
+    "img": "https://i.ibb.co/r5x6G2d/kevin.jpg",
+    "salary": 2400000,
+    "country": "Belgium"
+  },
+  {
+    "id": 14,
+    "name": "Manuel Neuer",
+    "club": "FC Bayern Munich",
+    "position": "Goalkeeper",
+    "img": "https://i.ibb.co/fN0GVHY/nuer.jpg",
+    "salary": 1300000,
+    "country": "Germany"
+  },
+  {
+    "id": 15,
+    "name": "Antoine Griezmann",
+    "club": "FC Barcelona",
+    "img": "https://i.ibb.co/McmQhFj/antoine.jpg",
+    "salary": 4500000,
+    "country": "France"
+  }
+]
