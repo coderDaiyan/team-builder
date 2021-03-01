@@ -13,9 +13,6 @@ const Navbar = () => {
             <a href="#players">
               <h5 className="me-5">Players</h5>
             </a>
-            <a href="#footer">
-              <h5>Contact Me</h5>
-            </a>
           </div>
         </div>
       </nav>
