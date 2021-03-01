@@ -13,7 +13,7 @@ const TeamDetails = (props) => {
     0
   );
   return (
-    <div className="team-detail">
+    <div id="home" className="team-detail">
       <h2>Total Player Selected: {props.playerLength}</h2>
       <h3>Total Budget: {totalBudget}€</h3>
       <h3>All Players:</h3>

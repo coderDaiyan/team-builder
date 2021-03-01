@@ -10,7 +10,7 @@ const Player = (props) => {
   const [isClicked, setIsClicked] = useState(false);
 
   return (
-    <div className="player-div">
+    <div id="players" className="player-div">
       <img src={img} alt="" />
       <h2>Name: {name} </h2>
       <h4>Club: {club} </h4>

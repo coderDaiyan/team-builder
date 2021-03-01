@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./App.css";
+import Footer from "./Components/Footer/Footer";
 import Navbar from "./Components/Navbar/Navbar";
 import Players from "./Components/Players/Players";
 import TeamDetails from "./Components/TeamDetails/TeamDetails";
@@ -17,6 +18,7 @@ function App() {
       <Navbar></Navbar>
       <TeamDetails fullTeam={team} playerLength={team.length}></TeamDetails>
       <Players handleAddPlayer={handleAddPlayer}></Players>
+      <Footer></Footer>
     </div>
   );
 }
