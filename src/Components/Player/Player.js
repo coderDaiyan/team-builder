@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUserPlus } from "@fortawesome/free-solid-svg-icons";
 import "./Player.css";
@@ -6,6 +6,8 @@ import "./Player.css";
 const Player = (props) => {
   const { name, club, country, position, salary, img } = props.player;
   const handleAddPlayer = props.handleAddPlayer;
+
+  const [isClicked, setIsClicked] = useState(false);
 
   return (
     <div className="player-div">
@@ -16,13 +18,15 @@ const Player = (props) => {
       <h4>Position: {position} </h4>
       <h4>Salary: {salary}€</h4>
       <button
+        disabled={isClicked}
         onClick={() => {
           handleAddPlayer(props.player);
+          setIsClicked(true);
         }}
         className="buy-btn btn btn-danger"
       >
         <FontAwesomeIcon className="me-2" icon={faUserPlus}></FontAwesomeIcon>
-        Buy Me
+        {isClicked ? "Bought!" : "Buy Me"}
       </button>
     </div>
   );
