@@ -1,11 +1,14 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Player from "../Player/Player";
 import fakeData from "../../fakeData/data.json";
 import "./players.css";
 
 const Players = (props) => {
-  const fakePlayers = fakeData;
-  const [players, setPlayers] = useState(fakePlayers);
+  const [players, setPlayers] = useState([]);
+
+  useEffect(() => {
+    setPlayers(fakeData);
+  }, []);
 
   return (
     <div className="parent-div">

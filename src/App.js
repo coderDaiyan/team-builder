@@ -8,7 +8,6 @@ function App() {
   const [team, setTeam] = useState([]);
 
   const handleAddPlayer = (player) => {
-    // console.log("player added", player);
     const newTeam = [...team, player];
     setTeam(newTeam);
   };

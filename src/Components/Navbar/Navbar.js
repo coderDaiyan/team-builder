@@ -10,7 +10,7 @@ const Navbar = () => {
             style={{ color: "white" }}
             href="/home"
           >
-            Player Auction
+            <h2>Dream11</h2>
           </a>
         </div>
       </nav>
